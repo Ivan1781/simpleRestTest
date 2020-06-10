@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="test_POST_PUT" verbose="1" >
+    <test name="test" >
+        <classes>
+            <class name="dins.com.post.Tests_POST">
+                    <methods>
+                        <parameter name="field" value="firstName"/>
+                        <parameter name="valueField" value="BBB"/>
+                        <include name="test_POST_createUser_withRequiredField_positive"/>
+                    </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

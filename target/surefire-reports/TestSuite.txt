@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.739 s <<< FAILURE! - in TestSuite
+test_POST_createUser_withRequiredField_positive(dins.com.post.Tests_POST)  Time elapsed: 6.937 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at dins.com.post.Tests_POST.test_POST_createUser_withRequiredField_positive(Tests_POST.java:29)
+
+delete_testing_items(dins.com.post.Tests_POST)  Time elapsed: 8.97 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at dins.com.post.Tests_POST.delete_testing_items(Tests_POST.java:40)
+

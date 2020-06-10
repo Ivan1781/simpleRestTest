@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577ef47d-78fa-4f7a-a45e-327cf4cd47e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dins/com/endpoints/Endpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dins/com/post/Tests_POST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dins/com/put/Tests_PUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dins/com/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/post/Tests_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/post/Tests_POST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/post/Tests_POST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dins/com/post/Tests_POST.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Tests_POST">
+  <component name="RunManager" selected="TestNG.C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/dins/com/resources/testng.xml">
     <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="clientAsured" />
       <extension name="coverage">
@@ -69,6 +67,16 @@
       <option name="PACKAGE_NAME" value="dins.com" />
       <option name="MAIN_CLASS_NAME" value="dins.com.post.AppTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/dins/com/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="clientAsured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/dins/com/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -94,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/dins/com/resources/testng.xml" />
         <item itemvalue="TestNG.Tests_POST" />
         <item itemvalue="TestNG.AppTest" />
       </list>
@@ -112,7 +121,9 @@
       <workItem from="1591700549875" duration="4321000" />
       <workItem from="1591708225490" duration="1439000" />
       <workItem from="1591715781843" duration="8226000" />
-      <workItem from="1591742225631" duration="5802000" />
+      <workItem from="1591742225631" duration="6137000" />
+      <workItem from="1591780145963" duration="13697000" />
+      <workItem from="1591803335639" duration="3142000" />
     </task>
     <servers />
   </component>
@@ -124,7 +135,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
