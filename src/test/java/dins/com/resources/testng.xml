@@ -5,9 +5,11 @@
         <classes>
             <class name="dins.com.post.Tests_POST">
                     <methods>
-                        <parameter name="field" value="firstName"/>
-                        <parameter name="valueField" value="BBB"/>
+                        <parameter name="requiredField" value="firstName"/>
+                        <parameter name="valueField" value="Alex"/>
+                        <parameter name="nonRequiredField" value="lastName"/>
                         <include name="test_POST_createUser_withRequiredField_positive"/>
+                        <include name="test_POST_createUser_withNonRequiredField_negative"/>
                     </methods>
             </class>
         </classes>
