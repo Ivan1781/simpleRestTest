@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577ef47d-78fa-4f7a-a45e-327cf4cd47e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/slf4phonebook.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dins/com/get/Tests_GET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/GeneralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/GeneralTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/endpoints/Endpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/endpoints/Endpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/post/Tests_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/post/Tests_POST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/put/Tests_PUT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/GeneralTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dins/com/GeneralTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/post/Tests_POST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dins/com/post/Tests_POST.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +42,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1d52Hl05YNu3qSTgJDPjsHvWtdh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -45,6 +56,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sobol\IdeaProjects\labs\clientAsured\src\test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/dins/com/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/resources/testng.xml">
     <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="clientAsured" />
       <extension name="coverage">
@@ -86,6 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="clientAsured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="clientAsured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests_POST" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="clientAsured" />
       <extension name="coverage">
@@ -105,6 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/resources/testng.xml" />
         <item itemvalue="TestNG.C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/dins/com/resources/testng.xml" />
         <item itemvalue="TestNG.Tests_POST" />
         <item itemvalue="TestNG.AppTest" />
@@ -127,12 +168,16 @@
       <workItem from="1591742225631" duration="6137000" />
       <workItem from="1591780145963" duration="13697000" />
       <workItem from="1591803335639" duration="4499000" />
-      <workItem from="1591823413309" duration="9880000" />
+      <workItem from="1591823413309" duration="10286000" />
+      <workItem from="1591872280472" duration="8474000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -146,5 +191,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

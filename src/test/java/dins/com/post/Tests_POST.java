@@ -45,7 +45,8 @@ public class Tests_POST extends GeneralTest {
                 post(Endpoint.users).
         then().
                 assertThat().
-                body(field, equalTo(valueField));
+                statusCode(400).and().
+                body(containsString("firstName"));
     }
 
     @AfterMethod

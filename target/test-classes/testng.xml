@@ -12,6 +12,13 @@
                         <include name="test_POST_createUser_withNonRequiredField_negative"/>
                     </methods>
             </class>
+            <class name="dins.com.get.Tests_GET">
+                <methods>
+                    <parameter name="id" value="a"/>
+                    <include name="test_GET_getUsers_positive"/>
+                    <include name="test_GET_getUsersById_negative"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
