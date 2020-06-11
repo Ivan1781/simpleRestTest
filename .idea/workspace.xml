@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577ef47d-78fa-4f7a-a45e-327cf4cd47e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/dins/com/GeneralTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/GeneralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/GeneralTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/endpoints/Endpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/endpoints/Endpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/post/Tests_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/post/Tests_POST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/put/Tests_PUT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/put/Tests_PUT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/post/Tests_POST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dins/com/post/Tests_POST.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,7 +127,7 @@
       <workItem from="1591742225631" duration="6137000" />
       <workItem from="1591780145963" duration="13697000" />
       <workItem from="1591803335639" duration="4499000" />
-      <workItem from="1591823413309" duration="7703000" />
+      <workItem from="1591823413309" duration="9880000" />
     </task>
     <servers />
   </component>
