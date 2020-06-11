@@ -37,6 +37,7 @@ public class Tests_POST extends GeneralTest {
     @Test
     @Parameters({"nonRequiredField", "valueField"})
     public void test_POST_createUser_withNonRequiredField_negative(String field, String valueField){
+        logger.warn("negative");
         String bodyOfRequest = getJsonString(field ,valueField);
         given().
                 spec(requestSpec).

@@ -1,36 +1,12 @@
-11.06.2020 14:52:36.273 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 14:52:37.773 [main] WARN   dins.com.GeneralTest - Alex was added
-11.06.2020 14:52:37.773 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 14:52:37.898 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 14:52:37.961 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 14:52:38.070 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 14:53:09.212 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 14:53:10.821 [main] WARN   dins.com.GeneralTest - Alex was added
-11.06.2020 14:53:10.821 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 14:53:10.930 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 14:53:11.024 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 14:53:11.102 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 14:54:06.588 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 14:54:08.119 [main] WARN   dins.com.GeneralTest - Alex was added
-11.06.2020 14:54:08.135 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 14:54:08.869 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 14:54:08.932 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 14:54:09.026 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 14:56:05.465 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 14:56:07.011 [main] WARN   dins.com.GeneralTest - Alex was added
-11.06.2020 14:56:07.014 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 14:56:07.344 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 14:56:07.407 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 14:56:07.586 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 15:46:19.753 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 15:46:24.336 [main] WARN   dins.com.GeneralTest - Alex was added
-11.06.2020 15:46:24.339 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 15:46:24.794 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 15:46:24.977 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 15:46:25.626 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 16:37:52.396 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 16:37:54.960 [main] WARN   dins.com.GeneralTest - Alex was added
-11.06.2020 16:37:54.960 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 16:37:55.117 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 16:37:55.195 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 16:37:55.367 [main] WARN   dins.com.GeneralTest - was deleted
+11.06.2020 20:27:59.309 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
+11.06.2020 20:32:59.430 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
+11.06.2020 20:46:03.863 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
+11.06.2020 20:49:09.273 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
+11.06.2020 20:56:24.502 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
+11.06.2020 21:03:47.806 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
+11.06.2020 21:03:49.649 [main] WARN   dins.com.GeneralTest - Alex was added
+11.06.2020 21:03:49.654 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
+11.06.2020 21:03:49.775 [main] WARN   dins.com.GeneralTest - was deleted
+11.06.2020 21:03:49.777 [main] WARN   dins.com.GeneralTest - negative
+11.06.2020 21:03:49.863 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
+11.06.2020 21:03:49.973 [main] WARN   dins.com.GeneralTest - was deleted
