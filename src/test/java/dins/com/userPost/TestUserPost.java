@@ -1,9 +1,12 @@
-package dins.com.post;
+package dins.com.userPost;
 
 import com.google.gson.Gson;
 import dins.com.GeneralTest;
 import dins.com.endpoints.Endpoint;
 import io.restassured.response.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -15,13 +18,16 @@ import java.util.Map;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class Tests_POST extends GeneralTest {
+public class TestUserPost extends GeneralTest {
+
+    private static final Logger logger = LoggerFactory.getLogger(TestUserPost.class);
 
     @Test
     @Parameters({"requiredField", "valueField"})
-    public void test_POST_createUser_withRequiredField_positive(String field, String valueField) {
-        logger.warn("test_POST_createUser" + "starts");
+    public void testPostCreateUserWithRequiredFieldPositive(String field, String valueField) {
+        logger.info("TEST_POST_CREATE_USER positive starts");
         String bodyOfRequest = getJsonString(field ,valueField);
+        logger.info("body of request is {}", bodyOfRequest);
         given().
                spec(requestSpec).
                body(bodyOfRequest).
@@ -31,14 +37,15 @@ public class Tests_POST extends GeneralTest {
                assertThat().
                statusCode(201).and().
                body(field, equalTo(valueField));
-        logger.warn(valueField + " was added");
+        logger.info("user {} was added", valueField);
     }
 
     @Test
     @Parameters({"nonRequiredField", "valueField"})
-    public void test_POST_createUser_withNonRequiredField_negative(String field, String valueField){
-        logger.warn("negative");
+    public void testPostCreateUserWithNonRequiredFieldNegative(String field, String valueField){
+        logger.warn("TEST_POST_CREATE_USER_WITH_NON_REQUIRED_FIELD negative starts");
         String bodyOfRequest = getJsonString(field ,valueField);
+        logger.info("body of request is {}", bodyOfRequest);
         given().
                 spec(requestSpec).
                 body(bodyOfRequest).
@@ -48,17 +55,18 @@ public class Tests_POST extends GeneralTest {
                 assertThat().
                 statusCode(400).and().
                 body(containsString("firstName"));
+        logger.info("user {} was not added", valueField);
     }
 
-    @AfterMethod
-    public void delete_testing_items(){
-        logger.warn("deleting of test_user" + " starts");
+    @AfterClass
+    public void deleteTestingItems(){
+        logger.warn("deleting of test_user starts");
         Response e = given().get(Endpoint.users);
         List<Integer> a = e.jsonPath().getList("id");
         when().
                delete(Endpoint.users + "/" + a.get(a.size()-1));
 
-        logger.warn("was deleted");
+        logger.warn("test_user was deleted");
     }
 
     private String getJsonString(String field, Object valueField){

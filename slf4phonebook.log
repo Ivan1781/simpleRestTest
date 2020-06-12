@@ -1,12 +1,13 @@
-11.06.2020 20:27:59.309 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 20:32:59.430 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 20:46:03.863 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 20:49:09.273 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 20:56:24.502 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 21:03:47.806 [main] WARN   dins.com.GeneralTest - test_POST_createUserstarts
-11.06.2020 21:03:49.649 [main] WARN   dins.com.GeneralTest - Alex was added
-11.06.2020 21:03:49.654 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 21:03:49.775 [main] WARN   dins.com.GeneralTest - was deleted
-11.06.2020 21:03:49.777 [main] WARN   dins.com.GeneralTest - negative
-11.06.2020 21:03:49.863 [main] WARN   dins.com.GeneralTest - deleting of test_user starts
-11.06.2020 21:03:49.973 [main] WARN   dins.com.GeneralTest - was deleted
+
+12.06.2020 13:18:59.194 [main] INFO   d.c.u.TestUserPost - TEST_POST_CREATE_USER positive starts
+12.06.2020 13:18:59.247 [main] INFO   d.c.u.TestUserPost - body of request is {"firstName":"Alex"}
+12.06.2020 13:19:01.823 [main] INFO   d.c.u.TestUserPost - user Alex was added
+12.06.2020 13:19:01.827 [main] WARN   d.c.u.TestUserPost - TEST_POST_CREATE_USER_WITH_NON_REQUIRED_FIELD negative starts
+12.06.2020 13:19:01.827 [main] INFO   d.c.u.TestUserPost - body of request is {"lastName":"Alex"}
+12.06.2020 13:19:01.859 [main] INFO   d.c.u.TestUserPost - user Alex was added
+12.06.2020 13:19:01.861 [main] WARN   d.c.u.TestUserPost - deleting of test_user starts
+12.06.2020 13:19:01.942 [main] WARN   d.c.u.TestUserPost - test_user was deleted
+12.06.2020 13:19:01.946 [main] INFO   d.c.u.TestUserGet - TEST_GET_USERS positive starts
+12.06.2020 13:19:01.979 [main] INFO   d.c.u.TestUserGet - list of users received
+12.06.2020 13:19:01.980 [main] INFO   d.c.u.TestUserGet - TEST_GET_USER_BY_ID negative starts
+12.06.2020 13:19:01.999 [main] INFO   d.c.u.TestUserGet - The value of field is not correct

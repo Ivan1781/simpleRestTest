@@ -17,7 +17,6 @@ import static io.restassured.RestAssured.*;
 
 public class GeneralTest {
 
-    protected static final Logger logger = LoggerFactory.getLogger(GeneralTest.class);
     protected static RequestSpecification requestSpec;
 
     @BeforeClass
