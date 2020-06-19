@@ -2,57 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577ef47d-78fa-4f7a-a45e-327cf4cd47e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientAsured.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/slf4phonebook.log" beforeDir="false" afterPath="$PROJECT_DIR$/slf4phonebook.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/GeneralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/GeneralTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/get/Tests_GET.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/userGet/TestUserGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dins/com/post/Tests_POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dins/com/userPost/TestUserPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dins/com/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-06-11T20-56-14_309-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-06-11T20-56-14_309-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-dins.com.get.Tests_GET.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-dins.com.post.Tests_POST.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test_POST_PUT/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test_POST_PUT/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test_POST_PUT/test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/GeneralTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/endpoints/Endpoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/get/Tests_GET.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dins/com/post/Tests_POST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logback-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +59,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sobol\IdeaProjects\labs\clientAsured" />
       <recent name="C:\Users\sobol\IdeaProjects\labs\clientAsured\src\test" />
     </key>
   </component>
@@ -121,10 +77,10 @@
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/resources/testng.xml">
     <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="clientAsured" />
+      <module name="testPhoneBookSob" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dins.com.userPost.*" />
+          <option name="PATTERN" value="sob.com.userPost.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,7 +94,7 @@
       </method>
     </configuration>
     <configuration name="C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/dins/com/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="clientAsured" />
+      <module name="testPhoneBookSob" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/dins/com/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -148,7 +104,7 @@
       </method>
     </configuration>
     <configuration name="C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/java/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="clientAsured" />
+      <module name="testPhoneBookSob" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -158,7 +114,7 @@
       </method>
     </configuration>
     <configuration name="C:/Users/sobol/IdeaProjects/labs/clientAsured/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="clientAsured" />
+      <module name="testPhoneBookSob" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -177,15 +133,15 @@
       </method>
     </configuration>
     <configuration name="TestUserPost" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="clientAsured" />
+      <module name="testPhoneBookSob" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dins.com.userPost.*" />
+          <option name="PATTERN" value="sob.com.userPost.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dins.com.post" />
-      <option name="MAIN_CLASS_NAME" value="dins.com.userPost.TestUserPost" />
+      <option name="MAIN_CLASS_NAME" value="sob.com.userPost.TestUserPost" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -230,7 +186,10 @@
       <workItem from="1591872280472" duration="10124000" />
       <workItem from="1591889949129" duration="8688000" />
       <workItem from="1591916111118" duration="740000" />
-      <workItem from="1591954788967" duration="2988000" />
+      <workItem from="1591954788967" duration="9462000" />
+      <workItem from="1591991929316" duration="838000" />
+      <workItem from="1592141503093" duration="103000" />
+      <workItem from="1592561792030" duration="1355000" />
     </task>
     <servers />
   </component>

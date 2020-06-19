@@ -7,7 +7,7 @@
 
     <test name="test" >
         <classes>
-            <class name="dins.com.userPost.TestUserPost">
+            <class name="sob.com.userPost.TestUserPost">
                     <methods>
                         <parameter name="requiredField" value="firstName"/>
                         <parameter name="valueField" value="Alex"/>
@@ -16,7 +16,7 @@
                         <include name="testPostCreateUserWithNonRequiredFieldNegative"/>
                     </methods>
             </class>
-            <class name="dins.com.userGet.TestUserGet">
+            <class name="sob.com.userGet.TestUserGet">
                 <methods>
                     <parameter name="id" value="a"/>
                     <include name="testGetGetUsersPositive"/>
